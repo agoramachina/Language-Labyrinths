@@ -5,3 +5,6 @@ references/
 **/*.bcf
 **/*.blg
 **/*.xml
+**/*.ist
+**/*.glo
+**/*.bbl
