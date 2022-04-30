@@ -1,1 +1,4 @@
 references/
+**/*.aux
+**/*.log
+**/*.toc
