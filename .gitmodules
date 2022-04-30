@@ -1,3 +1,9 @@
 [submodule "lib/fonts"]
 	path = lib/fonts
-	url = https://github.com/agoramachina/solbera-dnd-fonts
+	url = https://github.com/jonathonf/solbera-dnd-fonts
+[submodule "lib/--force"]
+	path = lib/--force
+	url = https://github.com/jonathonf/solbera-dnd-fonts
+[submodule "lib/solbera-dnd-fonts"]
+	path = lib/solbera-dnd-fonts
+	url = https://github.com/jonathonf/solbera-dnd-fonts
