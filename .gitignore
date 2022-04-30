@@ -1,10 +1,12 @@
 references/
+template/
 **/*.aux
-**/*.log
-**/*.toc
+**/*.bbl
 **/*.bcf
 **/*.blg
-**/*.xml
-**/*.ist
 **/*.glo
-**/*.bbl
+**/*.ist
+**/*.log
+**/*.toc
+**/*.xml
+
