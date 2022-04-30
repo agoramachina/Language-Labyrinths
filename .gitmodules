@@ -1,4 +1,4 @@
 [submodule "lib/fonts"]
 	path = lib/fonts
-	url = https://github.com/jonathonf/solbera-dnd-fonts.git
+	url = https://github.com/jonathonf/solbera-dnd-fonts
 	branch = master
