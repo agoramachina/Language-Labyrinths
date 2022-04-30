@@ -18,16 +18,16 @@
 \usepackage{wallpaper}
 \usepackage{verbatim}
 \usepackage{glossaries}
-\usepackage[style=apa, 
+\usepackage[backend=biber,
+        style=apa, 
         hyperref=true,        
         isbn=false,
         firstinits=true,
         ]{biblatex}
-
+ 
         
-
-\bibliography{bibliography}
 \addbibresource{bibliography.bib}
+
 
 \captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
 \MakeShortVerb{|}
@@ -200,10 +200,9 @@ Glossary section \Gls{erdolit} testing
 \printglossaries
 
 \section{Bibliography}
-\begin{refsection}{bibliography.bib}
 \nocite{*}
 \printbibliography
-\end{refsection}
+
 
 \section{Index}
 
