@@ -15,8 +15,8 @@
 \usepackage{csquotes}
 \usepackage{xcolor}
 \usepackage{graphicx}
-\usepackage{wallpaper}
 \usepackage{verbatim}
+\usepackage{setspace}
 \usepackage{glossaries}
 \usepackage[backend=biber,
         style=apa, 
@@ -24,9 +24,7 @@
         isbn=false,
         firstinits=true,
         ]{biblatex}
- 
 \addbibresource{bibliography.bib}
-
 
 \captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
 \MakeShortVerb{|}
@@ -39,16 +37,7 @@
 
 %% GLOSSARY ENTRIES %%
 
-\newglossaryentry{erdolit}
-{
-    name=erdogic literature,
-    description={A text that requires non-trivial effort to navigate. The form of the text is considered an essential element of the work itself.}
-}
-
-\newacronym{gm}{GM}{Game Master. In the original DnD rulebooks, this individual was referred to as the \textit{Dungeon Master}. With the growing number of tabletop rpgs since the release of Dnd 1e, a popular generic term is \textit{Game Master}. However, this term is considered problematic by some; proposed alternative titles include \textit{Storyteller}, \textit{Moderator}, and \textit{Host}, among others.}
-\newacronym{DnD}{Dungeons and Dragons}{Can also be written \textit{'D\&D'}}
-\newacronym{RPG}{Role Playing Game}{In an RPG, players take on the role of a particular character who is acting in a certain rule according to certain situations.}
-
+\makeglossaries
 
 %%%%%%%%%%
 % TITLE PAGE %
@@ -89,9 +78,13 @@ such work. \\
   The term |Cybertext| was first defined in Norbert Wiener's 1948 book \textit{Cybernetics}.
 \end{DndSidebar}
 
+%% PREFACE %%
+\section{Preface}
+    \lipsum[1]
+    
 %%%%%%%%%%%
 %% WHY D&D? %%
-\section{Form and Function}
+\subsection{Form and Function}
 \DndDropCapLine{T}{his work is presented in the style } of a 5e Dungeons and Dragons manual. 
     Why this format, and not another? 
     As the Author of this text, I knew from the beginning that I was going to take an ergodic approach to this assignment. 
@@ -138,13 +131,14 @@ such work. \\
     This gives us a framework for imagining how one's character may interact with and act within the shared world.
     In other words, it provides the perfect framework for \cite{dnd-gm-manual}
 
-\section{Preface}
-    \lipsum[1]
-\section{How to Read this Document}
+
+\subsection{How to Read this Document}
     \lipsum[2]
-\section{Cybertext: A History}
+\section{Transcending the Text}
+    \lipsum[6]
+\subsection{Cybertext: A History}
     \lipsum[3]
-\section{Ergodic Exploration}
+\subsection{Ergodic Exploration}
     \lipsum[4]
 \section{Final Thoughts}
     \lipsum[5]
@@ -154,6 +148,7 @@ such work. \\
 %%%%%%%%%%%
 %% SESSIONS %%
 \part{Sessions}
+\section{Session Zero}
 \section{On Translation}
     \lipsum[1]
 \section{On Knowing}
@@ -183,14 +178,21 @@ such work. \\
 
 \chapter{Appendix}
 \section{Glossary}
-
-Glossary section \Gls{erdolit} testing
-\Gls{erdolit}
 \printglossaries
 
+%% BIBLIOGRAPHY %%
+
 \section{Bibliography}
-\nocite{*}
-\printbibliography
+\begingroup
+\let\clearpage\relax
+
+    \nocite{*}
+
+    \onecolumn{
+        \setstretch{1.5}
+        \printbibliography[heading=none]}
+    \endgroup
+
 
 
 
