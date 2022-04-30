@@ -1,0 +1,312 @@
+% DOCUMENT CLASS %
+\documentclass[letterpaper,twocolumn,openany,nodeprecatedcode]{dndbook}
+
+% IMPORT PACKAGES %
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{wallpaper}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+\MakeShortVerb{|}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+%%%%%%%%%%
+% TITLE PAGE %
+\title{Language \& Labyrinths{} \\
+\large A Metalinguistic Journey through Erdogic Literature}
+\author{Multiplex Void}
+\date{2022/04/25}
+
+
+
+
+%%%%%%%%%%%%X%
+% BEGIN DOCUMENT %
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%
+%%       CHAPTER 1         %%
+%%     INTRODUCTION      %%
+\part{Introduction}   %%
+%%% ABOUT THIS WORK %%%
+\chapter{About this Work}
+\DndDropCapLine{I}{t seems only appropriate to present } a paper on ergodic literature in ergodic format--it could even be argued 
+that such an approach is necessary to properly convey the ideas and concepts contained within the body of this text. 
+By its very nature, ergodic literature demands active engagement on the part of its 
+|Reader(s)|
+    \footnote{The term |Reader| is perhaps too restrictive in describing the role of an "ergodic explorer". 
+        It may be more accurate to consider this individual a |user| or |consumer| of ergodic media. 
+        Moreover, such  an individual need not act alone. 
+        Many ergodic works, such as those exemplified by MUDs, ARGs, and tabletop RPGs, require the participation and cooperation of 
+        multiple individuals for storytelling and puzzle-solving purposes.}. 
+It requires not only \textit{interpretation} but \textit{reciprocation}. 
+It is not meant to be \textit{consumed}, but \textit{explored}. Only through non-trivial effort can one effectively traverse 
+such work. \\ 
+
+\begin{DndSidebar}[]{History of Terms}
+  The term |Ergotic Literature| was first defined by Espen J. Aarceth in his 1997 book \textit{Cybertext}.
+  The term |Cybertext| was first defined in Norbert Wiener's 1948 book \textit{Cybernetics}.
+\end{DndSidebar}
+
+%%%%%%%%%%%
+%% WHY D&D? %%
+\section{Form and Function}
+\DndDropCapLine{T}{his work is presented in the style } of a 5e Dungeons and Dragons manual. 
+    Why this format, and not another? 
+    As the Author of this text, I knew from the beginning that I was going to take an ergodic approach to this assignment. 
+    Initially, I had planned on taking on a form inspired by \color{blue}House \color{black} of Leaves. 
+    It is a favorite of mine, after all, and has shaped a great deal of my own thoughts and perspectives. 
+    However, implementing this proved difficult:  \color{blue}House  \color{black}of Leaves is maddening-- intentionally so.  
+    Immersing myself in the text never fails to induce in me an altered state of consciousness--we find ourselves consumed 
+    by a kind of madness. This mental state, while phenomenologically interesting, presents significant writing challenges. 
+    The thoughts are \textit{too} disorganized, too flighty and entangled and chaotic and confused. 
+    I was entirely unable to write in such a way that could properly translate these states and ideas from Author to Reader. 
+    Any level of understanding would require significant effort on the part of the Reader. That's asking a bit too much, I think. \\
+
+    Beyond that, there were typesetting concerns-- trying to program all of this in \LaTeX  was simply taking up too much of my time. 
+    Searching for an alternative approach, I eventually stumbled upon a DnD 5e  \LaTeX  template--perfect!\\ 
+
+    For one, a DnD manual is a perfect representation of ergodic text. 
+    It is not intended to be read like a novel (or a paper), from cover-to-cover in a linear fashion. 
+    Its format makes it partiularly suitable as a reference guide. This seemed particularly appropriate for this assignment.  
+    What better way to explain and demonstrate ergodicity than by using this format to explore course themes and answer questions of interest?  \\
+    
+    The role that the |Reader| plays will also shape how they read this document. 
+    Are they a (potential) |Player|? A |GM|?
+        \footnote{The |Gamemaster|  |(GM)|, plays the role of storyteller; they take on the task of setting up a world and guiding the Players through it.} 
+    Perhaps they're curious about tabletop gaming, or perhaps they are unfamiliar with it entirely. 
+    Perhaps the Reader is me, the |Author|, as I read and reread and organize and edit this document.
+        \footnote{The Author often plays an active role in ergodic literature; they are part of the work as much as the text itself.
+        For example, \color{blue} House \color{black} of Leaves is about a nonexistant documentary supposedly recorded 
+        by Pulitzer prize winner 
+        
+        a a book written by the Author Mark Z. Danielewski that is read by the Author, You, 
+        that is about a delinquent who 
+        ; in otherwords, it is about itself. }
+    One particular Reader--our target audience--will play the role of \textit{'professor who is grading a student's assignment according to a specific rubric'.} 
+    More specifically, this Reader is known to be a professor who is grading a student's assignment according to a specific rubric who already has familiarity 
+    with tabletop RPGs and thus already shares a common cultural background with the author/student.
+        \footnote{Hello Dr. Cash!} 
+            This gives us the advantage of being able to use tropes and jargon that the Reader is already familiar with and greatly simplifies 
+            the effort to communicate effectively.
+    
+    The purpose of introductory sections such as these are intended to explain the format of this document, its purpose, and how to engage with it. 
+    Later sections introduce a framework for the creation of a shared imaginary world.  
+    The background and mechanics of this world are explained so that Players can share a common frame of reference for its history and rules. 
+    Next, a framework is presented for the creation of a character by a Player. 
+    This gives us a framework for imagining how one's character may interact with and act within the shared world.
+    In other words, it provides the perfect framework forz  
+
+\chapter{Reference Material}
+%% SPELLS %%
+\section{Spells}
+\DndSpellHeader%
+  {Sending}
+  {3rd-level Evocation}
+  {1 action}
+  {Unlimited}
+  {V, S, M (a short piece of fine copper wire)}
+  {1 Round}
+        You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
+        You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.
+
+
+% TEMPLATE %
+\part{Template}
+
+%% SECTION %%
+\section{Section}
+This is a Section
+
+%% SUBSECTION %%
+\subsection{Section}
+This is a SubSection
+%% SUBSUBSECTION %%
+\subsubsection{Subsubsection}
+Subsubsections are the furthest division of text that still have a block header. Below this level, headers are displayed inline.
+
+%% PARAGRAPH %%
+\paragraph{Paragraph}
+The paragraph format is seldom used in the core books, but is available if you prefer it to the ``normal'' style.
+%% SUBPARAGRAPH %%
+\subparagraph{Subparagraph}
+The subparagraph format with the paragraph indent is likely going to be more familiar to the reader.
+
+
+% TEXT  BOXES %
+\chapter{Text Boxes}
+
+The module has three environments for setting text apart so that it is drawn to the reader's attention. |DndReadAloud| is used for text that a game master would read aloud.
+
+\begin{DndReadAloud}
+  As you approach this module you get a sense that the blood and tears of many generations went into its making. A warm feeling welcomes you as you type your first words.
+\end{DndReadAloud}
+
+\section{As an Aside}
+The other two environments are the |DndComment| and the |DndSidebar|. The |DndComment| is breakable and can safely be used inline in the text.
+
+\begin{DndComment}{This Is a Comment Box!}
+  A |DndComment| is a box for minimal highlighting of text. It lacks the ornamentation of |DndSidebar|, but it can handle being broken over a column.
+\end{DndComment}
+
+The |DndSidebar| is not breakable and is best used floated toward a page corner as it is below.
+
+\begin{DndSidebar}[float=!b]{Behold the DndSidebar!}
+  The |DndSidebar| is used as a sidebar. It does not break over columns and is best used with a figure environment to float it to one corner of the page where the surrounding text can then flow around it.
+\end{DndSidebar}
+
+\section{Tables}
+The |DndTable| colors the even rows and is set to the width of a line by default.
+
+\begin{DndTable}[header=Nice Table]{XX}
+    Table head  & Table head \\
+    Some value  & Some value \\
+    Some value  & Some value \\
+    Some value  & Some value
+\end{DndTable}
+
+\chapter{Monsters and NPCs}
+
+% Monster stat block
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Ludwig Wittgenstein}
+  \begin{multicols}{2}
+    \DndMonsterType{Medium aberration (metasyntactic variable), neutral evil}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {9 (12 with \emph{mage armor})},
+        hit-points  = {\DndDice{3d8 + 3}},
+        speed       = {30 ft., fly 30 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 12,
+        dex = 8,
+        con = 13,
+        int = 10,
+        wis = 14,
+        cha = 15,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        %skills = {Acrobatics +0, Animal Handling +0, Arcana +0, Athletics +0, Deception +0, History +0, Insight +0, Intimidation +0, Investigation +0, Medicine +0, Nature +0, Perception +0, Performance +0, Persuasion +0, Religion +0, Sleight of Hand +0, Stealth +0, Survival +0},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {darkvision 60 ft., passive Perception 10},
+        languages = {Common, Goblin, Undercommon},
+        challenge = 1,
+      ]
+    % Traits
+    \DndMonsterAction{Innate Spellcasting}
+    Foo's spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+    \begin{DndMonsterSpells}
+      \DndInnateSpellLevel{misty step}
+      \DndInnateSpellLevel[3]{fog cloud, rope trick}
+      \DndInnateSpellLevel[1]{identify}
+    \end{DndMonsterSpells}
+
+    \DndMonsterAction{Spellcasting}
+    Foo is a 2nd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:
+    \begin{DndMonsterSpells}
+      \DndMonsterSpellLevel{blade ward, fire bolt, light, shocking grasp}
+      \DndMonsterSpellLevel[1][3]{burning hands, mage armor, shield}
+    \end{DndMonsterSpells}
+
+    \DndMonsterSection{Actions}
+    \DndMonsterAction{Multiattack}
+    The foo makes two melee attacks.
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Dagger,
+      %distance=both, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod=+3,
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{1d4+1},
+      dmg-type=piercing,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      %extra=,
+    ]
+
+    %\DndMonsterMelee calls \DndMonsterAttack with the melee option
+    \DndMonsterMelee[
+      name=Flame Tongue Longsword,
+      mod=+3,
+      %reach=5,
+      %targets=one target,
+      dmg=\DndDice{1d8+1},
+      dmg-type=slashing,
+      plus-dmg=\DndDice{2d6},
+      plus-dmg-type=fire,
+      or-dmg=\DndDice{1d10+1},
+      or-dmg-when=if used with two hands,
+      %extra=,
+    ]
+
+    %\DndMonsterRanged calls \DndMonsterAttack with the ranged option
+    \DndMonsterRanged[
+      name=Assassin's Light Crossbow,
+      mod=+1,
+      range=80/320,
+      dmg=\DndDice{1d8},
+      dmg-type=piercing,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one}
+    ]
+
+    % Legendary Actions
+    \DndMonsterSection{Legendary Actions}
+    The foo can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo regains spent legendary actions at the start of its turn.
+
+    \begin{DndMonsterLegendaryActions}
+      \DndMonsterLegendaryAction{Move}{The foo moves up to its speed.}
+      \DndMonsterLegendaryAction{Dagger Attack}{The foo makes a dagger attack.}
+      \DndMonsterLegendaryAction{Create Contract (Costs 3 Actions)}{The foo presents a contract in a language it knows and waves it in the face of a creature within 10 feet. The creature must make a DC 10 Intelligence saving throw. On a failure, the creature is incapacitated until the start of the foo's next turn. A creature who cannot read the language in which the contract is written has advantage on this saving throw.}
+    \end{DndMonsterLegendaryActions}
+  \end{multicols}
+\end{DndMonster}
+
+The |DndMonster| environment is used to typeset monster and NPC stat blocks. The module supplies many functions to easily typeset the contents of the stat block
+
+
+
+%% Glossary %%
+\part{Glossary}
+\DndDropCapLine{W}{hat is language \textit{for?} } a paper on ergodic literature in an ergodic format.  Ergodic literature, after all, demands active engagement on the part of its player(s).\footnote{ Throughout this text, we will refer to someone who engages with an ergodic work as a |player|, as opposed to a |reader|. See |Cybertext| .}
+est
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
