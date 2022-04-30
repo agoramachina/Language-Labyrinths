@@ -1,0 +1,7 @@
+references/
+**/*.aux
+**/*.log
+**/*.toc
+**/*.bcf
+**/*.blg
+**/*.xml
