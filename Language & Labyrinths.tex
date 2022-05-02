@@ -1,3 +1,12 @@
+%%%%%%%%
+%% TODO %%
+%%%%%%%%
+% edit title font
+% insert title image
+% fix glossary
+% WRITE
+
+
 %%%%%%%%%%%
 %% PREAMBLE %%
 %%%%%%%%%%%
@@ -8,6 +17,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[singlelinecheck=false]{caption}
+\usepackage{amssymb}
 \usepackage{lipsum}
 \usepackage{listings}
 \usepackage{shortvrb}
@@ -15,8 +25,11 @@
 \usepackage{csquotes}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{titling}
 \usepackage{verbatim}
 \usepackage{setspace}
+\usepackage{background}
+\usepackage[export]{adjustbox}
 \usepackage{glossaries}
 \usepackage[backend=biber,
         style=apa,        
@@ -35,18 +48,25 @@
 }
 
 %% GLOSSARY ENTRIES %%
-
 \makeglossaries
 
 %%%%%%%%%%
 % TITLE PAGE %
-\title{Language \& Labyrinths{} \\
-\large A Metalinguistic Journey through Erdogic Literature}
+\backgroundsetup{
+ scale=1,
+ angle=0,
+ opacity=.4,  %% adjust
+ contents={\includegraphics[width=\paperwidth,height=\paperheight]{img/buildingmen.png}}
+ }
+ \title{Language \& Labyrinths\\{%
+    %\includegraphics[width=\textwidth]{img/buildingmen.png}} \\
+\large A Metalinguistic Journey through Erdogic Literature}}
 \author{Multiplex Void}
 \date{2022/04/25}
 
 %%%%%%%%%%%%%%%%
 %%  BEGIN DOCUMENT  %%
+%%%%%%%%%%%%%%%%
 \begin{document}
 \frontmatter
 \maketitle
@@ -59,77 +79,50 @@
 \part{Introduction}   %%
 %%% ABOUT THIS WORK %%%
 \chapter{About this Work}
-\DndDropCapLine{I}{t seems only appropriate to present } a paper on ergodic literature in ergodic format--it could even be argued 
-that such an approach is necessary to properly convey the ideas and concepts contained within the body of this text. 
-By its very nature, ergodic literature demands active engagement on the part of its 
-|Reader(s)|
-    \footnote{The term |Reader| is perhaps too restrictive in describing the role of an "ergodic explorer". 
-        It may be more accurate to consider this individual a |user| or |consumer| of ergodic media. 
-        Moreover, such  an individual need not act alone. 
-        Many ergodic works, such as those exemplified by MUDs, ARGs, and tabletop RPGs, require the participation and cooperation of 
-        multiple individuals for storytelling and puzzle-solving purposes.}. 
-It requires not only \textit{interpretation} but \textit{reciprocation}. 
-It is not meant to be \textit{consumed}, but \textit{explored}. Only through non-trivial effort can one effectively traverse 
-such work. \\ 
+
+\DndDropCapLine{I}{t seems only appropriate to present } a paper on ergodic literature in ergodic format--in fact, I would argue that such an approach is necessary to properly convey the ideas and concepts contained within this tome. By its very nature, ergodic literature demands active engagement on the part of its 
+|Reader(s)|.
+    \footnote{The term |Reader| is perhaps too restrictive in describing the role of an "ergodic explorer". It may be more accurate to consider this individual a |user| or |consumer| of ergodic media. Moreover, such  an individual need not act alone. Many ergodic works, such as MUDs, ARGs, and tabletop RPGs, require the participation and cooperation of multiple individuals for storytelling and puzzle-solving purposes.}         
+It requires not only \textit{interpretation} but \textit{reciprocation}. It is not meant to be \textit{consumed}, but \textit{explored}. Only through non-trivial effort can one effectively traverse such work. \\ 
+
+In this introductory section, I will define ergodic literature, explain its origins, present contemporary examples, and describe the advantages of ergodic media over more traditional means in engaging the reader on an interactive level. Furthermore, I will take time to explain my own intentions as author, and justify the means through which I have chosen to communicate these concepts.
+%e.g., by including them as a canonical part of the text. 
 
 \begin{DndSidebar}[]{History of Terms}
-  The term |Ergotic Literature| was first defined by Espen J. Aarceth in his 1997 book \textit{Cybertext}.
-  The term |Cybertext| was first defined in Norbert Wiener's 1948 book \textit{Cybernetics}.
+  The term |Ergotic Literature| was first defined by Espen J. Aarceth in his 1997 book \textit{Cybertext}. It is derived from the Greek |ergon| and |hodos|, meaning \textit{work} and \textit{path}, respectively. The term |Cybertext| was first defined in Norbert Wiener's 1948 book \textit{Cybernetics}.
 \end{DndSidebar}
-
-%% PREFACE %%
-\section{Preface}
-    \lipsum[1]
     
 %%%%%%%%%%%
 %% WHY D&D? %%
-\subsection{Form and Function}
-\DndDropCapLine{T}{his work is presented in the style } of a 5e Dungeons and Dragons manual. 
-    Why this format, and not another? 
-    As the Author of this text, I knew from the beginning that I was going to take an ergodic approach to this assignment. 
-    Initially, I had planned on taking on a form inspired by \color{blue}House \color{black} of Leaves. 
-    It is a favorite of mine, after all, and has shaped a great deal of my own thoughts and perspectives. 
-    However, implementing this proved difficult:  \color{blue}House  \color{black}of Leaves is maddening-- intentionally so.  
-    Immersing myself in the text never fails to induce in me an altered state of consciousness--we find ourselves consumed 
-    by a kind of madness. This mental state, while phenomenologically interesting, presents significant writing challenges. 
-    The thoughts are \textit{too} disorganized, too flighty and entangled and chaotic and confused. 
-    I was entirely unable to write in such a way that could properly translate these states and ideas from Author to Reader. 
-    Any level of understanding would require significant effort on the part of the Reader. That's asking a bit too much, I think. \\
+\subsection{Dungeons and Dialogue}
+\DndDropCapLine{T}{his work is presented in the style } of a 5e Dungeons and Dragons manual. Why this format, and not another? As the Author of this text, I knew from the beginning that I was going to take an ergodic approach to this assignment. Initially, I had planned on taking on a form inspired by \color{blue}House \color{black} of Leaves. It is a favorite of mine, after all, and has shaped a great deal of my own thoughts and perspectives. However, implementing this proved difficult:  \color{blue}House  \color{black}of Leaves is maddening-- intentionally so.  Immersing myself in the text never fails to induce in me an altered state of consciousness--we find ourselves consumed by a kind of madness. This mental state, while phenomenologically interesting, presents significant writing challenges. The thoughts are \textit{too} disorganized, too flighty and entangled and chaotic and confused. I was entirely unable to write in such a way that could properly translate these states and ideas from Author to Reader. Any level of understanding would require significant effort on the part of the Reader. That's asking a bit too much, I think. \\
 
-    Beyond that, there were typesetting concerns-- trying to program all of this in \LaTeX  was simply taking up too much of my time. 
-    Searching for an alternative approach, I eventually stumbled upon a DnD 5e  \LaTeX  template--perfect!\\ 
-
-    For one, a DnD manual is a perfect representation of ergodic text. 
-    It is not intended to be read like a novel (or a paper), from cover-to-cover in a linear fashion. 
-    Its format makes it partiularly suitable as a reference guide. This seemed particularly appropriate for this assignment.  
-    What better way to explain and demonstrate ergodicity than by using this format to explore course themes and answer questions of interest?  \\
-    
-    The role that the |Reader| plays will also shape how they read this document. 
-    Are they a (potential) |Player|? A |GM|?
-        \footnote{The |Gamemaster|  |(GM)|, plays the role of storyteller; they take on the task of setting up a world and guiding the Players through it.} 
-    Perhaps they're curious about tabletop gaming, or perhaps they are unfamiliar with it entirely. 
-    Perhaps the Reader is me, the |Author|, as I read and reread and organize and edit this document.
-        \footnote{The Author often plays an active role in ergodic literature; they are part of the work as much as the text itself.
-        For example, \color{blue} House \color{black} of Leaves is about a nonexistant documentary supposedly recorded 
-        by Pulitzer prize winner 
-        
-        a a book written by the Author Mark Z. Danielewski that is read by the Author, You, 
-        that is about a delinquent who 
-        ; in otherwords, it is about itself. }
-    One particular Reader--our target audience--will play the role of \textit{'professor who is grading a student's assignment according to a specific rubric'.} 
-    More specifically, this Reader is known to be a professor who is grading a student's assignment according to a specific rubric who already has familiarity 
-    with tabletop RPGs and thus already shares a common cultural background with the author/student.
+    Beyond that, there were typesetting concerns-- trying to program all of this in \LaTeX  was simply taking up too much of my time. Searching for an alternative approach, I eventually stumbled upon a DnD 5e  \LaTeX  template--perfect! For one, a DnD manual is a perfect representation of ergodic text. It is not intended to be read like a novel (or a paper), from cover-to-cover in a linear fashion. Its format makes it perfectly suitable as a reference guide. This seemed particularly appropriate for this assignment.  What better way to explain and demonstrate ergodicity than by using this format to explore course themes and answer questions of interest?  Furthermore, I know that the primary Reader for whom this is intended is already quite familiar with tabletop guides, and thus there is a shared cultural context upon which to base this work. This means less explanation on my part and less confusion on theirs--a boon for all!\\
+     
+ \subsection{Readers and Roles}   
+    \DndDropCapLine{T}{he role that the Reader plays will } shape how they traverse this document.  Are they a (potential) |Player|? A |GM|?
+        %\footnote{The |Gamemaster|  |(GM)|, plays the role of storyteller; they take on the task of setting up a world and guiding the Players through it.} 
+    Perhaps they're curious about tabletop gaming, or perhaps they are unfamiliar with it entirely. Perhaps the Reader is me, the |Author|, as I read and reread and organize and edit this document.
+ %       \footnote{The Author often plays an active role in ergodic literature; they are part of the work as much as the text itself.}
+        One particular Reader--our target audience--will play the role of \textit{'professor who is grading a student's assignment according to a specific rubric'.} More specifically, this Reader is known to be \textit{'a professor who is grading a student's assignment according to a specific rubric who already has familiarity with tabletop RPGs'} and thus, as previously mentioned, already shares a common cultural background with the author/student.
         \footnote{Hello Dr. Cash!} 
-            This gives us the advantage of being able to use tropes and jargon that the Reader is already familiar with and greatly simplifies 
-            the effort to communicate effectively.
+            This gives us the advantage of being able to use tropes and jargon that the Reader is already familiar with and greatly simplifies the effort to communicate effectively. As I, the Author, will be playing the role of the |Student|, it would behoove us to detail how this document intends to fulfull the rubric assigned by the |Professor|. 
     
-    The purpose of introductory sections such as these are intended to explain the format of this document, its purpose, and how to engage with it. 
-    Later sections introduce a framework for the creation of a shared imaginary world.  
-    The background and mechanics of this world are explained so that Players can share a common frame of reference for its history and rules. 
-    Next, a framework is presented for the creation of a character by a Player. 
-    This gives us a framework for imagining how one's character may interact with and act within the shared world.
-    In other words, it provides the perfect framework for \cite{dnd-gm-manual}
+    \section{Respecting the Rubric}
+    \DndDropCapLine{W}{e will now explain how this document } s
+    
+    
+%    The purpose of introductory sections such as these are intended to explain the format of this document, its purpose, and how to engage with it. 
+%    Later sections introduce a framework for the creation of a shared imaginary world.  
+%    The background and mechanics of this world are explained so that Players can share a common frame of reference for its history and rules. 
+%    Next, a framework is presented for the creation of a character by a Player. 
+%    This gives us a framework for imagining how one's character may interact with and act %within the shared world.
+%    In other words, it provides the perfect framework for \cite{dnd-gm-manual}
 
+% Readers and Roles
+% Form and Function
+% Transcending Text
+% Embracing Ergodicity/ Ergodic Exploration
 
 \subsection{How to Read this Document}
     \lipsum[2]
