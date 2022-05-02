@@ -4,6 +4,7 @@
 % edit title font
 % insert title image
 % fix glossary/acronyms
+
 % WRITE
 
 
@@ -19,6 +20,7 @@
 \usepackage[singlelinecheck=false]{caption}
 \usepackage{amssymb}
 \usepackage{lipsum}
+%\usepackage{fontspec}
 \usepackage{listings}
 \usepackage{shortvrb}
 \usepackage{stfloats}
@@ -119,8 +121,8 @@ Beyond that, there were typesetting concerns-- trying to program all of this in 
     This gives us the advantage of being able to use tropes and jargon that the Reader is already familiar with and greatly simplifies the effort to communicate effectively. As I, the |Author|, will be playing the role of the |Student|, it would behoove us to detail how this document intends to fulfull the rubric assigned by the |Professor|. 
  
  %%%%%%%%%%%%%%%%%%%%
- %% RESPECTING THE RUBRIC %%   
- \section{Respecting Rubric}\vspace{6pt}
+ %% Regards to THE RUBRIC %%   
+ \section{Regarding Rubric}\vspace{6pt}
     \DndDropCapLine{I}{will now explain how this document } follows the guidelines defined in the course syllabus and how each section is intended to be interpreted. 
     
     The |Research Paper|, accounting for 20-25\% of the total course grade, is to contain \~{} 3000 words and include substantial discussion of at least two course readings and two academic works, with citations. |Part 1| and its chapters are intended to fulfil these criteria. %% fix tildes
@@ -136,7 +138,7 @@ Beyond that, there were typesetting concerns-- trying to program all of this in 
  \section{Beyond the Basics}\vspace{2pt}
     \DndDropCapLine{A}{great deal of effort has been }expended in order to keep the formatting of this document true to form. As an ergodic work, we consider the document's style, as well as the code written to produce it, as essential as the text itself. Therefore, in order to more fully comprehend this project as a whole, we heartily encourage the Reader to explore the \textit{Language and Labyrinths} |github| \footnote{https://github.com/agoramachina/\\\hspace{6pt}Language-and-Labyrinths.git} repository. \\
 
-The |git| commit log itself is a record of how this paper evolved over time.  Particular note should be taken of the files |Language & Labyrinths.tex|, |bibliography.bib|, and |glossary.tex|. These documents form the core of our work: the |.tex| file is compiled with the |.bib| bibliography and |.tex| glossary by \LaTeX to produce the final |.pdf|. Great care has been taken to ensure that the code is well-organized and heavily documented so that even a Reader with minimal programming experience can understand how this work was created. \\\vspace{12pt}
+The |git| commit log itself is a record of how this paper evolved over time.  Particular note should be taken of the files |Language & Labyrinths.tex|, |bibliography.bib|, and |glossary.tex|. These documents form the core of our work: the |.tex| file is compiled with the |.bib| bibliography and |.tex| glossary by \LaTeX to produce the final |.pdf|. Great care has been taken to ensure that the code is well-organized and heavily documented so that even a viewer with minimal programming experience can understand how this work was created. \\\vspace{12pt}
 
 Images for the Title Page were generated with |gnofract4d|. These images and the code to produce them are included in the |img| directory. 
 
@@ -158,20 +160,29 @@ For further instruction, consult the project's README.
 % Embracing Ergodicity/ Ergodic Exploration
 
 \chapter{Exploring Erdogicity}
-\section{Cybertext}
+\section{Cybertext}\vspace{2pt}
 \subsection{A History}
     \lipsum[2]
 \section{Transcending Text}
     \lipsum[6]
 
-
-
-
-
+%%%%%%%%%%
+%% PART II %%    
 %%%%%%%%%%%
 %% SESSIONS %%
 \part{Sessions}
-\section{Session Zero}
+
+%% SESSION 0 %%
+\chapter{Session Zero}\vspace{6pt}
+
+\begin{DndReadAloud}
+  As you approach this module you get a sense that the blood and tears of many generations went into its making. A warm feeling welcomes you as you type your first words.
+\end{DndReadAloud}
+
+%% 
+
+\section{On Language}
+
 \section{On Translation}
     \lipsum[1]
 \section{On Knowing}
@@ -184,8 +195,12 @@ For further instruction, consult the project's README.
 %% DnD Reference %%
 \chapter{Reference Material}
 
+%%%%%%%%%
 %% SPELLS %%
-\section{Spells}
+%%%%%%%%%%
+\section{Spells}\vspace{6pt}
+
+%% SENDING %%
     \DndSpellHeader%
       {Sending}
       {3rd-level Evocation}
@@ -193,8 +208,30 @@ For further instruction, consult the project's README.
       {Unlimited}
       {V, S, M (a short piece of fine copper wire)}
       {1 Round}
-            You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
+            You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message. \\
             You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.
+        
+%% COMPREHEND LANGUAGES    %% 
+    \DndSpellHeader%
+      {Comprehend Languages}
+      {1st Level Divination (Ritual)}
+      {1 action}
+      {Self}
+      {V, S, M (a pinch of soot and salt)}
+      {1 Hour}
+    For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. \\
+    This spell doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language.        
+    
+%% TONGUES %%    
+    \DndSpellHeader%
+      {Tongues}
+      {3rd Level Divination}
+      {Touch}
+      {The creature you touch}
+      {V, M (a small clay model of a ziggurat)}
+      {1 Hour}
+    This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
+
             
 %% CLASSES %%
 \section{Classes}
