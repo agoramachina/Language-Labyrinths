@@ -3,7 +3,7 @@
 %%%%%%%%
 % edit title font
 % insert title image
-% fix glossary
+% fix glossary/acronyms
 % WRITE
 
 
@@ -37,22 +37,23 @@
         isbn=false,
         firstinits=true,
         ]{biblatex}
-\addbibresource{bibliography.bib}
 
+%% CONFIG %%
 \captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
 \MakeShortVerb{|}
-
 \lstset{%
   basicstyle=\ttfamily,
   language=[LaTeX]{TeX},
   breaklines=true,
 }
 
-%% GLOSSARY ENTRIES %%
+%% GENERATE APPENDIX %%
+\addbibresource{bibliography.bib}
 \makeglossaries
 
 %%%%%%%%%%
 % TITLE PAGE %
+%%%%%%%%%%
 \backgroundsetup{
  scale=1,
  angle=0,
@@ -65,9 +66,9 @@
 \author{Multiplex Void}
 \date{2022/04/25}
 
-%%%%%%%%%%%%%%%%
-%%  BEGIN DOCUMENT  %%
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%      BEGIN DOCUMENT      %%
+%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \frontmatter
 \maketitle
@@ -77,7 +78,10 @@
 %%%%%%%%%%%%%%%%%%
 %%       CHAPTER 1         %%
 %%     INTRODUCTION      %%
+%%%%%%%%%%%%%%%%%%
 \part{Introduction}   %%
+
+%%%%%%%%%%%%%%%%%%
 %%% ABOUT THIS WORK %%%
 \chapter{About this Work}
 
@@ -89,6 +93,7 @@ It requires not only \textit{interpretation} but \textit{reciprocation}. It is n
     In this introductory section and following chapters, I will define ergodic literature, explain its origins, present contemporary examples, and describe the advantages of ergodic media over more traditional means in engaging the reader on an interactive level. Furthermore, I will take time to explain my own intentions as author, and justify the means through which I have chosen to communicate these concepts.
 %e.g., by including them as a canonical part of the text. 
 
+%% SIDEBAR %%
 \begin{DndSidebar}[]{History of Terms}
   The term |Ergotic Literature| was first defined by Espen J. Aarceth in his 1997 book \textit{Cybertext}. It is derived from the Greek |ergon| and |hodos|, meaning \textit{work} and \textit{path}, respectively. The term |Cybertext| was first defined in Norbert Wiener's 1948 book \textit{Cybernetics}.
 \end{DndSidebar}
@@ -102,21 +107,20 @@ It requires not only \textit{interpretation} but \textit{reciprocation}. It is n
 
 Beyond that, there were typesetting concerns-- trying to program all of this in \LaTeX  was simply taking up too much of my time. Searching for an alternative approach, I eventually stumbled upon a DnD 5e  \LaTeX  template--perfect! For one, a DnD manual is a perfect representation of ergodic text. It is not intended to be read like a novel (or a paper), from cover-to-cover in a linear fashion. Its format makes it perfectly suitable as a reference guide. This seemed particularly appropriate for this assignment.  What better way to explain and demonstrate ergodicity than by using this format to explore course themes and answer questions of interest?  Furthermore, I know that the primary Reader for whom this is intended is already quite familiar with tabletop guides, and thus there is a shared cultural context upon which to base this work. This means less explanation on my part and less confusion on theirs--a boon for all!\\
      
-     
+ %%%%%%%%%%%%%%%%%    
  %% READERS AND ROLES %%
  \subsection{Readers and Roles}   
-    \DndDropCapLine{T}{he role that the Reader plays will } shape how they traverse this document.  Are they a (potential) |Player|? A |GM|?
-        %\footnote{The |Gamemaster|  |(GM)|, plays the role of storyteller; they take on the task of setting up a world and guiding the Players through it.} 
-    Perhaps they're curious about tabletop gaming, or perhaps they are unfamiliar with it entirely. Perhaps the Reader is me, the |Author|, as I read and reread and organize and edit this document.
- %       \footnote{The Author often plays an active role in ergodic literature; they are part of the work as much as the text itself.}
+    \DndDropCapLine{T}{he role that the Reader plays will } shape how they traverse this document.  Are they a (potential) |Player|? A |GM|? Perhaps they're curious about tabletop gaming, or perhaps they are unfamiliar with it entirely. Perhaps the Reader is me, the |Author|, as I read and reread and organize and edit this document.
+
         One particular Reader--our target audience--will play the role of \textit{'professor who is grading a student's assignment according to a specific rubric'.} 
-        \footnote{Hello Dr. Cash!} 
+       \footnote{Hello Dr. Cash!} 
         More specifically, this Reader is known to be \textit{'a professor who is grading a student's assignment according to a specific rubric who already has familiarity with tabletop RPGs'} and thus, as previously mentioned, already shares a common cultural background with the author/student.
 
     This gives us the advantage of being able to use tropes and jargon that the Reader is already familiar with and greatly simplifies the effort to communicate effectively. As I, the |Author|, will be playing the role of the |Student|, it would behoove us to detail how this document intends to fulfull the rubric assigned by the |Professor|. 
  
+ %%%%%%%%%%%%%%%%%%%%
  %% RESPECTING THE RUBRIC %%   
- \section{Respecting Rubric}
+ \section{Respecting Rubric}\vspace{6pt}
     \DndDropCapLine{I}{will now explain how this document } follows the guidelines defined in the course syllabus and how each section is intended to be interpreted. 
     
     The |Research Paper|, accounting for 20-25\% of the total course grade, is to contain \~{} 3000 words and include substantial discussion of at least two course readings and two academic works, with citations. |Part 1| and its chapters are intended to fulfil these criteria. %% fix tildes
@@ -125,12 +129,14 @@ Beyond that, there were typesetting concerns-- trying to program all of this in 
     
     For those experienced in tabletop roleplaying, the style and content of these arguments may be familiar. Who among us hasn't gotten into a squabble over interpretation over the particulars of rules? Who hasn't engaged in hearty debate over RAW vs. RAI only to be shot down by ROG? These Sessions are designed to be thoughtful, but playful. 
 
+%%%%%%%%%%%%%%%%%
 %% BEYOND THE BASICS %%
- %\vfill\null   
- \section{Beyond the Basics}
+%\vfill\null  
+ \vspace{42pt} 
+ \section{Beyond the Basics}\vspace{2pt}
     \DndDropCapLine{A}{great deal of effort has been }expended in order to keep the formatting of this document true to form. As an ergodic work, we consider the document's style, as well as the code written to produce it, as essential as the text itself. Therefore, in order to more fully comprehend this project as a whole, we heartily encourage the Reader to explore the \textit{Language and Labyrinths} |github| \footnote{https://github.com/agoramachina/\\\hspace{6pt}Language-and-Labyrinths.git} repository. \\
 
-The |git| commit log itself is a record of how this paper evolved over time.  Particular note should be taken of the files |Language & Labyrinths.tex|, |bibliography.bib|, and |glossary.tex|. These documents form the core of our work: the |.tex| file is compiled with the |.bib| bibliography and |.tex| glossary by \LaTeX to produce the final |.pdf|. The code is well-organized and heavily documented so that even a Reader with minimal programming experience can understand how this work was created. \\\vspace{12pt}
+The |git| commit log itself is a record of how this paper evolved over time.  Particular note should be taken of the files |Language & Labyrinths.tex|, |bibliography.bib|, and |glossary.tex|. These documents form the core of our work: the |.tex| file is compiled with the |.bib| bibliography and |.tex| glossary by \LaTeX to produce the final |.pdf|. Great care has been taken to ensure that the code is well-organized and heavily documented so that even a Reader with minimal programming experience can understand how this work was created. \\\vspace{12pt}
 
 Images for the Title Page were generated with |gnofract4d|. These images and the code to produce them are included in the |img| directory. 
 
@@ -151,17 +157,14 @@ For further instruction, consult the project's README.
 % Transcending Text
 % Embracing Ergodicity/ Ergodic Exploration
 
-\chapter{test}
-\subsection{How to Read this Document}
+\chapter{Exploring Erdogicity}
+\section{Cybertext}
+\subsection{A History}
     \lipsum[2]
 \section{Transcending Text}
     \lipsum[6]
-\subsection{Cybertext: A History}
-    \lipsum[3]
-\subsection{Ergodic Exploration}
-    \lipsum[4]
-\section{Final Thoughts}
-    \lipsum[5]
+
+
 
 
 
