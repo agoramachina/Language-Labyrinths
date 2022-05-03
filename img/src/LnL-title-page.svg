@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="187.63797mm"
-   height="75.470406mm"
-   viewBox="0 0 187.63797 75.470406"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 215.9 279.4"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    sodipodi:docname="LnL-title-page.svg"
-   inkscape:export-filename="/home/agoramachina/Documents/ucf/PHI 4221/Language-and-Labyrinths/img/src/LnL-title-page.png"
+   inkscape:export-filename="/home/agoramachina/Documents/ucf/PHI 4221/Language-and-Labyrinths/img/LnL-title-page.png"
    inkscape:export-xdpi="162.6702"
    inkscape:export-ydpi="162.6702"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -24,12 +24,12 @@
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="true"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2296718"
-     inkscape:cx="-417.98775"
-     inkscape:cy="1915.7772"
+     inkscape:zoom="1.0986277"
+     inkscape:cx="660.82442"
+     inkscape:cy="509.72683"
      inkscape:window-width="2292"
      inkscape:window-height="1600"
      inkscape:window-x="1448"
@@ -41,30 +41,35 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:snap-to-guides="false" />
+     inkscape:snap-to-guides="false"
+     units="in"
+     borderlayer="true" />
   <defs
      id="defs2" />
   <g
-     inkscape:label="Layer 1"
-     id="layer1"
-     transform="translate(-11.199129,-180.95941)"
-     style="display:inline">
+     id="g138991"
+     transform="matrix(0.31995693,0,0,0.31995693,64.846171,83.163072)">
     <g
-       id="g53557"
+       inkscape:label="Layer 1"
+       id="layer1"
+       transform="translate(-11.199129,-180.95941)"
        style="display:inline">
       <g
-         id="g53479"
-         transform="translate(1.9029941)"
-         sodipodi:insensitive="true"
+         id="g53557"
          style="display:inline"
-         inkscape:label="paper">
+         inkscape:label="text">
         <g
-           id="g45321">
-          <image
-             width="674.6875"
-             height="873.125"
-             preserveAspectRatio="none"
-             xlink:href="data:image/jpeg;base64,/9j/4RJyRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
+           id="g53479"
+           transform="matrix(1.0001346,0,0,1.0001346,1.8836109,-0.048146)"
+           style="display:inline"
+           inkscape:label="paper">
+          <g
+             id="g45321">
+            <image
+               width="674.6875"
+               height="873.125"
+               preserveAspectRatio="none"
+               xlink:href="data:image/jpeg;base64,/9j/4RJyRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
 agEoAAMAAAABAAIAAAExAAIAAAAeAAAAcgEyAAIAAAAUAAAAkIdpAAQAAAABAAAApAAAANAALcbA
 AAAnEAAtxsAAACcQQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykAMjAxNzowOToyOCAyMToy
 ODoyOAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAJ9qADAAQAAAABAAAM5AAAAAAAAAAGAQMAAwAA
@@ -28381,248 +28386,227 @@ O8x/60NUXwt29767htv9NrZvQp5DYqe/kG/1tbvbFqsxAE8WxPL9XTT6L5++kUQp/wDSCzOH/c/j
 3fUbfn8u1c3nHsr4Fx/ts7t27djvbrbpa9BR/wC4XJrjx+Ntm21xut9V/wDX1+yuvBA0Iv3H7aW9
 /J7bfC/T510KYfsm4k//2Q==
 "
-             id="image1208"
-             x="-193.37543"
-             y="-78.960175" />
+               id="image1208"
+               x="-193.37543"
+               y="-78.960175" />
+          </g>
         </g>
-      </g>
-      <g
-         id="g132695"
-         transform="translate(6.8791669)">
         <g
-           id="g25400"
-           transform="matrix(2.5876442,0,0,2.5876442,-39.186684,-701.05507)"
-           style="display:inline;stroke:#2a0000;stroke-opacity:0.727685"
+           id="g132695"
+           transform="translate(6.8791669)"
+           style="display:inline"
            inkscape:label="title">
           <g
-             id="g33391-0-6"
-             transform="matrix(1.0753641,0,0,1.0753641,-42.659576,140.16304)"
-             style="fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-opacity:0.727685">
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
-               x="38.96888"
-               y="199.12894"
-               id="text2102-0-02-4"><tspan
-                 sodipodi:role="line"
-                 id="tspan2100-7-2-0"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
-                 x="38.96888"
-                 y="199.12894">anguage</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
-               x="25.974224"
-               y="205.11499"
-               id="text2102-0-3-247-0"><tspan
-                 sodipodi:role="line"
-                 id="tspan2100-7-3-9-4"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
-                 x="25.974224"
-                 y="205.11499">L</tspan></text>
-          </g>
-          <g
-             id="g33385-8-6"
-             transform="matrix(1.0753641,0,0,1.0753641,-43.228623,141.30113)"
-             style="fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-opacity:0.727685">
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
-               x="87.259293"
-               y="226.22327"
-               id="text2102-0-9-5-2"><tspan
-                 sodipodi:role="line"
-                 id="tspan2100-7-1-4-6"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
-                 x="87.259293"
-                 y="226.22327">abyrinths</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
-               x="76.381302"
-               y="232.20932"
-               id="text2102-0-3-2-7-7"><tspan
-                 sodipodi:role="line"
-                 id="tspan2100-7-3-3-8-5"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
-                 x="76.381302"
-                 y="232.20932">L</tspan></text>
-          </g>
-          <g
-             id="g15730-9"
-             style="stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-             transform="matrix(1.0753641,0,0,1.0753641,-42.998847,139.02494)">
+             id="g25400"
+             transform="matrix(2.5876442,0,0,2.5876442,-39.186684,-701.05507)"
+             style="display:inline;stroke:#2a0000;stroke-opacity:0.727685"
+             inkscape:label="title">
             <g
-               id="g33391-8"
-               transform="translate(0.31549411,1.0583326)"
-               style="fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685">
+               id="g33391-0-6"
+               transform="matrix(1.0753641,0,0,1.0753641,-42.659576,140.16304)"
+               style="fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-opacity:0.727685">
               <text
                  xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
                  x="38.96888"
                  y="199.12894"
-                 id="text2102-0-7"><tspan
+                 id="text2102-0-02-4"><tspan
                    sodipodi:role="line"
-                   id="tspan2100-7-28"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   id="tspan2100-7-2-0"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
                    x="38.96888"
                    y="199.12894">anguage</tspan></text>
               <text
                  xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
                  x="25.974224"
                  y="205.11499"
-                 id="text2102-0-3-29"><tspan
+                 id="text2102-0-3-247-0"><tspan
                    sodipodi:role="line"
-                   id="tspan2100-7-3-96"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   id="tspan2100-7-3-9-4"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
                    x="25.974224"
                    y="205.11499">L</tspan></text>
             </g>
             <g
-               id="g33385-0"
-               transform="translate(-0.21367255,2.1166659)"
-               style="fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685">
+               id="g33385-8-6"
+               transform="matrix(1.0753641,0,0,1.0753641,-43.228623,141.30113)"
+               style="fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-opacity:0.727685">
               <text
                  xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
                  x="87.259293"
                  y="226.22327"
-                 id="text2102-0-9-2"><tspan
+                 id="text2102-0-9-5-2"><tspan
                    sodipodi:role="line"
-                   id="tspan2100-7-1-7"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   id="tspan2100-7-1-4-6"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.573663;stroke-opacity:0.727685"
                    x="87.259293"
                    y="226.22327">abyrinths</tspan></text>
               <text
                  xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
                  x="76.381302"
                  y="232.20932"
-                 id="text2102-0-3-2-6"><tspan
+                 id="text2102-0-3-2-7-7"><tspan
                    sodipodi:role="line"
-                   id="tspan2100-7-3-3-1"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   id="tspan2100-7-3-3-8-5"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.770759;stroke-opacity:0.727685"
                    x="76.381302"
                    y="232.20932">L</tspan></text>
             </g>
+            <g
+               id="g15730-9"
+               style="stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+               transform="matrix(1.0753641,0,0,1.0753641,-42.998847,139.02494)">
+              <g
+                 id="g33391-8"
+                 transform="translate(0.31549411,1.0583326)"
+                 style="fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685">
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   x="38.96888"
+                   y="199.12894"
+                   id="text2102-0-7"><tspan
+                     sodipodi:role="line"
+                     id="tspan2100-7-28"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                     x="38.96888"
+                     y="199.12894">anguage</tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   x="25.974224"
+                   y="205.11499"
+                   id="text2102-0-3-29"><tspan
+                     sodipodi:role="line"
+                     id="tspan2100-7-3-96"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                     x="25.974224"
+                     y="205.11499">L</tspan></text>
+              </g>
+              <g
+                 id="g33385-0"
+                 transform="translate(-0.21367255,2.1166659)"
+                 style="fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685">
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   x="87.259293"
+                   y="226.22327"
+                   id="text2102-0-9-2"><tspan
+                     sodipodi:role="line"
+                     id="tspan2100-7-1-7"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                     x="87.259293"
+                     y="226.22327">abyrinths</tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.1268px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                   x="76.381302"
+                   y="232.20932"
+                   id="text2102-0-3-2-6"><tspan
+                     sodipodi:role="line"
+                     id="tspan2100-7-3-3-1"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9186px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5e0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.00014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                     x="76.381302"
+                     y="232.20932">L</tspan></text>
+              </g>
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.5526px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#793100;fill-opacity:1;stroke:#1c0303;stroke-width:1.03977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+               x="4.3328395"
+               y="393.76556"
+               id="text2102-1-2-1"
+               inkscape:label="and"><tspan
+                 sodipodi:role="line"
+                 id="tspan2100-3-1-5"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.5526px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#793100;fill-opacity:1;stroke:#1c0303;stroke-width:1.03977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+                 x="4.3328395"
+                 y="393.76556">&amp;</tspan></text>
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.85px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2a0000;fill-opacity:0.521648;stroke:#2a0000;stroke-width:1.12587;stroke-opacity:0.727685"
-             x="5.6310716"
-             y="392.72424"
-             id="text2102-1-2-6-3"
-             inkscape:label="text2102-1-2-6-3"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.3858px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.685726;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="-100.64989"
+             y="375.19861"
+             id="text38552"
+             inkscape:label="subtitle"><tspan
                sodipodi:role="line"
-               id="tspan2100-3-1-0-2"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.85px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a0000;fill-opacity:0.521648;stroke:#2a0000;stroke-width:1.12587;stroke-opacity:0.727685"
-               x="5.6310716"
-               y="392.72424">&amp;</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.5526px;line-height:1.25;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4f0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.03977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-             x="4.3328395"
-             y="393.76556"
-             id="text2102-1-2-1"
-             inkscape:label="and"><tspan
-               sodipodi:role="line"
-               id="tspan2100-3-1-5"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.5526px;font-family:'Dragon Fire';-inkscape-font-specification:'Dragon Fire, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4f0000;fill-opacity:1;stroke:#2a0000;stroke-width:1.03977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-               x="4.3328395"
-               y="393.76556">&amp;</tspan></text>
+               id="tspan38550"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.3858px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.685726;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+               x="-100.64989"
+               y="375.19861">A Metalinguistic Journey Through Ergodic Literature</tspan></text>
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.3858px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.685726;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-           x="-100.64989"
-           y="375.19861"
-           id="text38552"
-           inkscape:label="subtitle"><tspan
-             sodipodi:role="line"
-             id="tspan38550"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.3858px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.685726;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-             x="-100.64989"
-             y="375.19861">A Metalinguistic Journey Through Ergodic Literature</tspan></text>
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-         x="392.78412"
-         y="778.98627"
-         id="text38552-0-0"
-         inkscape:label="class"><tspan
-           sodipodi:role="line"
-           id="tspan38550-4-2"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
            x="392.78412"
-           y="778.98627">Tux Tucker</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-         x="110.72456"
-         y="635.88599"
-         id="text38552-0"
-         inkscape:label="class"><tspan
-           sodipodi:role="line"
-           id="tspan38550-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+           y="778.98627"
+           id="text38552-0-0"
+           inkscape:label="name"><tspan
+             sodipodi:role="line"
+             id="tspan38550-4-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="392.78412"
+             y="778.98627">Tux Tucker</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
            x="110.72456"
-           y="635.88599">Spring 2022</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-         x="74.330933"
-         y="608.349"
-         id="text38552-0-0-8-0"
-         inkscape:label="class"><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+           y="635.88599"
+           id="text38552-0"
+           inkscape:label="semester"><tspan
+             sodipodi:role="line"
+             id="tspan38550-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="110.72456"
+             y="635.88599">Spring 2022</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
            x="74.330933"
            y="608.349"
-           id="tspan76703-9">Philosophy of Language</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-         x="99.877815"
-         y="581.04669"
-         id="text38552-0-0-80"
-         inkscape:label="class"><tspan
-           sodipodi:role="line"
-           id="tspan38550-4-2-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+           id="text38552-0-0-8-0"
+           inkscape:label="longclass"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="74.330933"
+             y="608.349"
+             id="tspan76703-9">Philosophy of Language</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
            x="99.877815"
-           y="581.04669">Dr. Mason Cash</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
-         x="-174.6436"
-         y="-49.490726"
-         id="text38552-0-0-8"
-         inkscape:label="class"><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+           y="581.04669"
+           id="text38552-0-0-80"
+           inkscape:label="prof"><tspan
+             sodipodi:role="line"
+             id="tspan38550-4-2-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="99.877815"
+             y="581.04669">Dr. Mason Cash</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;line-height:1.25;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#947531;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
            x="-174.6436"
            y="-49.490726"
-           id="tspan76703">Phi 4221</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:10.5833px;line-height:1.25;font-family:'8-bit Operator+ SC';-inkscape-font-specification:'8-bit Operator+ SC';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="-222.40204"
-         y="16.099546"
-         id="text110812"><tspan
-           sodipodi:role="line"
-           id="tspan110810"
-           style="stroke-width:0.264583"
-           x="-222.40204"
-           y="16.099546"></tspan></text>
-    </g>
-    <image
-       width="1665.6465"
-       height="345.43698"
-       preserveAspectRatio="none"
-       style="display:none;image-rendering:optimizeQuality"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB+4AAAGlCAYAAADUPd+6AAAToXpUWHRSYXcgcHJvZmlsZSB0eXBl
+           id="text38552-0-0-8"
+           inkscape:label="class"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2247px;font-family:Draconis;-inkscape-font-specification:'Draconis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a0000;fill-opacity:1;stroke:#2a0000;stroke-width:0.481374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.727685"
+             x="-174.6436"
+             y="-49.490726"
+             id="tspan76703">Phi 4221</tspan></text>
+      </g>
+      <image
+         width="1665.6465"
+         height="345.43698"
+         preserveAspectRatio="none"
+         style="display:none;image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB+4AAAGlCAYAAADUPd+6AAAToXpUWHRSYXcgcHJvZmlsZSB0eXBl
 IGV4aWYAAHjapZppklu5lYX/YxVeAuYLLAdjRO+gl9/fASm5JCvCLndmKclkPj5c3OEMYLnzv/9z
 3T/4yrVFl4u12mv1fOWeexw8af7zNd7P4PP7+b7O8fZ99ZfX3Sjfp5HHxGP6/KHVz2P48fr3DT8e
 w+BZ+cuN2vr+Yf76h54/j7H9dqPvQkkRRZ7s743690Ypfv4QvjcYn2352pv9dQvzfB6/7/+kgX9O
@@ -30445,9 +30429,10 @@ CwAAAM0nuAcAAIA+TLCqvBNZdEZ0vB13DgAAANI16xIAAABAH8ZXVd6JLK5FFp38ar42qg/tfdZa
 RC/E3z5+c+8BAAAgGYJ7AAAA6MdWFfzyzn+XcSairzB/K6DvyVfyi5M69N0hfkRcjHgkzN86nwuD
 ngsAAAAwmP8HVhOUBxu1xwUAAAAASUVORK5CYII=
 "
-       id="image25455"
-       x="-686.04004"
-       y="448.29816"
-       inkscape:label="buildingmen" />
+         id="image25455"
+         x="-680.62555"
+         y="406.17706"
+         inkscape:label="buildingmen" />
+    </g>
   </g>
 </svg>

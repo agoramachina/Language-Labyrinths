@@ -28,10 +28,11 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{pdfpages}
 \usepackage{titling}
 \usepackage{verbatim}
 \usepackage{setspace}
-\usepackage{background}
+\usepackage{pdfpages}
 \usepackage[export]{adjustbox}
 \usepackage{glossaries}
 \usepackage[backend=biber,
@@ -56,12 +57,7 @@
 %%%%%%%%%%
 % TITLE PAGE %
 %%%%%%%%%%
-\backgroundsetup{
- scale=1,
- angle=0,
- opacity=.4,  %% adjust
- contents={\includegraphics[width=\paperwidth,height=\paperheight]{img/buildingmen.png}}
- }
+
  \title{Language \& Labyrinths\\{%
     %\includegraphics[width=\textwidth]{img/buildingmen.png}} \\
 \large A Metalinguistic Journey through Erdogic Literature}}
@@ -72,10 +68,20 @@
 %%      BEGIN DOCUMENT      %%
 %%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\frontmatter
-\maketitle
+
+
+\thispagestyle{empty}
+ \begin{tikzpicture}[remember picture,overlay]
+   \node at (current page.center) {\includegraphics[width=\pdfpagewidth,height=\pdfpageheight]{img/LnL-title-page.png}};
+ \end{tikzpicture}
+
+
+
 \tableofcontents
 \mainmatter
+
+
+
 
 %%%%%%%%%%%%%%%%%%
 %%       CHAPTER 1         %%
